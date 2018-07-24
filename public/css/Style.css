@@ -1,0 +1,50 @@
+html,body{
+    background-color: black;
+}
+.galleryheading{
+    color:rgb(204, 235, 64);
+    border-bottom:2px solid rgb(204, 235, 64);
+}
+
+.allstudents{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.studentimage{
+    border-radius:50%;
+    padding:10px;
+    width:50%;
+    border:2px solid rgb(204, 235, 64);
+}
+.allstudentsgallery{
+    text-align: center;
+    padding:10px;
+}
+.displaydetails{
+    padding:10px;width:50%;
+    color:white;
+    text-align: left;
+}
+.studentsinfo{
+display:grid;
+grid-template-columns: 1fr 1fr;
+border:2px solid black;
+width:80%;
+margin:80px;
+}
+.detailsofstudents{
+    text-align: center;
+    color:white;
+    border-bottom:2px solid white;
+}
+.images{
+width:50%;
+border-radius: 50%;
+padding:20px;
+text-align:center;
+
+}
+.addform{
+    background-color: rgb(88, 86, 86);
+    color:white;
+}

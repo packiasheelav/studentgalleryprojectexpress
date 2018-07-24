@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/Style.css" rel="stylesheet" type="text/css">
+
+    <title>Document</title>
+</head>
+<body class='allstudentsgallery'>
+    <h1 class='galleryheading'>All Student Details</h1>   
+    <div class='allstudents'>
+            <% students.map((student,index) => { %>  
+                <a href='students/<%=index %>'>
+                <p><%= student.firstName %></p>                    
+                    <img src='images/<%= student.src %>' alt="studentimage" class="studentimage" id="image">
+                </a>
+            <% }); %>
+        
+        </div>
+
+</body>
+</html>

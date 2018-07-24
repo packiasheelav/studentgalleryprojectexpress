@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="/css/Style.css" rel="stylesheet" type="text/css">
+    <title>Document</title>
+</head>
+<body>
+<div class='detailsofstudents'>
+    <h1><%= firstName %> Details</h1>
+    <div class='studentsinfo'>
+    <img src='/images/<%=src %>' alt="studentimage" class="images" id="image">
+    <div class='displaydetails'>
+    <p>First Name:<%= firstName %></p>
+    <p>Last Name: <%= lastName %></p>
+    <p>Nationality :<%= nationality %></p>
+    <p>Title :<%= title %></p>
+    <p>Skills: <%= skills %></p>
+    <p>why Softer Developer: <%= whySofterDeveloper %></p>
+    <p>LongTermVision: <%= longTermVision %></p>
+    <p>What Motivates Me: <%= motivatesMe %></p>
+    <a href="#" method="delete" >Delete Post</a>
+</div>
+    </div>
+</div>
+</body>
+</html>
